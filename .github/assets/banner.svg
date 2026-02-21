@@ -1,0 +1,86 @@
+<svg viewBox="0 0 1200 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#141420"/>
+      <stop offset="100%" stop-color="#08080d"/>
+    </radialGradient>
+
+    <pattern id="hexGrid" width="31.18" height="54" patternUnits="userSpaceOnUse">
+      <polygon points="15.59,0 31.18,9 31.18,27 15.59,36 0,27 0,9"
+               fill="none" stroke="#f59e0b" stroke-width="0.5" opacity="0.06"/>
+      <polygon points="0,27 15.59,36 15.59,54 0,63 -15.59,54 -15.59,36"
+               fill="none" stroke="#f59e0b" stroke-width="0.5" opacity="0.06"/>
+      <polygon points="31.18,27 46.77,36 46.77,54 31.18,63 15.59,54 15.59,36"
+               fill="none" stroke="#f59e0b" stroke-width="0.5" opacity="0.06"/>
+    </pattern>
+
+    <clipPath id="rounded">
+      <rect width="1200" height="350" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <!-- Background -->
+    <rect width="1200" height="350" fill="url(#bg)"/>
+
+    <!-- Hex grid texture -->
+    <rect width="1200" height="350" fill="url(#hexGrid)"/>
+
+    <!-- Ambient glow -->
+    <ellipse cx="600" cy="115" rx="180" ry="140" fill="#f59e0b" opacity="0.015"/>
+    <ellipse cx="600" cy="115" rx="130" ry="100" fill="#f59e0b" opacity="0.025"/>
+    <ellipse cx="600" cy="115" rx="80" ry="65" fill="#f59e0b" opacity="0.04"/>
+
+    <!-- Scattered decorative hexagons -->
+    <path d="M120,56 L132,63 L132,77 L120,84 L108,77 L108,63 Z" fill="#f59e0b" fill-opacity="0.04" stroke="none"/>
+    <path d="M200,150 L209,155 L209,165 L200,170 L191,165 L191,155 Z" fill="#f59e0b" fill-opacity="0.03" stroke="none"/>
+    <path d="M280,42 L287,46 L287,54 L280,58 L273,54 L273,46 Z" fill="#f59e0b" fill-opacity="0.035" stroke="none"/>
+    <path d="M920,48 L930,54 L930,66 L920,72 L910,66 L910,54 Z" fill="#f59e0b" fill-opacity="0.04" stroke="none"/>
+    <path d="M1050,114 L1064,122 L1064,138 L1050,146 L1036,138 L1036,122 Z" fill="#f59e0b" fill-opacity="0.03" stroke="none"/>
+    <path d="M1100,41 L1108,45.5 L1108,54.5 L1100,59 L1092,54.5 L1092,45.5 Z" fill="#f59e0b" fill-opacity="0.035" stroke="none"/>
+    <path d="M100,249 L110,254.5 L110,265.5 L100,271 L90,265.5 L90,254.5 Z" fill="#f59e0b" fill-opacity="0.03" stroke="none"/>
+    <path d="M250,287 L261,293.5 L261,306.5 L250,313 L239,306.5 L239,293.5 Z" fill="#f59e0b" fill-opacity="0.04" stroke="none"/>
+    <path d="M950,270 L959,275 L959,285 L950,290 L941,285 L941,275 Z" fill="#f59e0b" fill-opacity="0.03" stroke="none"/>
+    <path d="M1070,225 L1083,232.5 L1083,247.5 L1070,255 L1057,247.5 L1057,232.5 Z" fill="#f59e0b" fill-opacity="0.04" stroke="none"/>
+
+    <!-- ═══ Honeycomb Logo Cluster ═══ -->
+    <!-- Center -->
+    <path d="M600,98 L619,109 L619,131 L600,142 L581,131 L581,109 Z"
+          fill="#f59e0b" fill-opacity="0.22" stroke="#f59e0b" stroke-opacity="0.65" stroke-width="1.5"/>
+    <!-- Right -->
+    <path d="M638,98 L657,109 L657,131 L638,142 L619,131 L619,109 Z"
+          fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+    <!-- Upper-right -->
+    <path d="M619,65 L638,76 L638,98 L619,109 L600,98 L600,76 Z"
+          fill="#f59e0b" fill-opacity="0.13" stroke="#f59e0b" stroke-opacity="0.45" stroke-width="1"/>
+    <!-- Upper-left -->
+    <path d="M581,65 L600,76 L600,98 L581,109 L562,98 L562,76 Z"
+          fill="#f59e0b" fill-opacity="0.08" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1"/>
+    <!-- Left -->
+    <path d="M562,98 L581,109 L581,131 L562,142 L543,131 L543,109 Z"
+          fill="#f59e0b" fill-opacity="0.06" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="1"/>
+    <!-- Lower-left -->
+    <path d="M581,131 L600,142 L600,164 L581,175 L562,164 L562,142 Z"
+          fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-opacity="0.38" stroke-width="1"/>
+    <!-- Lower-right -->
+    <path d="M619,131 L638,142 L638,164 L619,175 L600,164 L600,142 Z"
+          fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="1"/>
+
+    <!-- Decorative line -->
+    <line x1="420" y1="195" x2="780" y2="195" stroke="#f59e0b" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="420" cy="195" r="1.5" fill="#f59e0b" opacity="0.2"/>
+    <circle cx="780" cy="195" r="1.5" fill="#f59e0b" opacity="0.2"/>
+
+    <!-- HIVE text -->
+    <text x="600" y="252" text-anchor="middle"
+          font-family="'SF Mono','Fira Code','JetBrains Mono','Cascadia Code',Consolas,'Liberation Mono',monospace"
+          font-size="64" font-weight="700" letter-spacing="0.25em"
+          fill="#f59e0b" fill-opacity="0.95">HIVE</text>
+
+    <!-- Subtitle -->
+    <text x="600" y="292" text-anchor="middle"
+          font-family="'SF Mono','Fira Code','JetBrains Mono','Cascadia Code',Consolas,'Liberation Mono',monospace"
+          font-size="13" font-weight="400" letter-spacing="0.18em"
+          fill="#9ca3af" fill-opacity="0.8">MULTI CLAUDE CODE INSTANCE ORCHESTRATOR</text>
+  </g>
+</svg>
